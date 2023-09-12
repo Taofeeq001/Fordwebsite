@@ -1,4 +1,5 @@
 import React from 'react'
+import { data } from './data'
 
 const Getvehicle = () => {
     return (
@@ -8,6 +9,11 @@ const Getvehicle = () => {
             </div>
             <div className='container flex flex-col items-center'>
                 <p className='pt-6 text-[24px] font-semibold'>Get the vehicle you want with an online custom order.</p>
+            </div>
+            <div>
+                {
+                    data.map()
+                }
             </div>  
         </div>
     )
