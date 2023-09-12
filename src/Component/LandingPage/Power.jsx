@@ -2,6 +2,8 @@ import React from 'react'
 import mark from '../../Images/icon.svg'
 import eng1 from '../../Images/Eng1.svg'
 import eng2 from '../../Images/Eng2.svg'
+import eng3 from '../../Images/Eng3.svg'
+import eng4 from '../../Images/Eng4.svg'
 
 const Power = () => {
     return (
@@ -67,6 +69,36 @@ const Power = () => {
                             <p>Port fuel direct injection</p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className='container mt-7 flex justify-around w-full'>
+                <div className='text-start flex flex-col gap-9 w-[50%]'>
+                    <h1 className='text-5xl font-normal'>Mach 1</h1>
+                    <div>
+                        <p className='font-semibold'>5.0L Tri-VCT V8</p>
+                        <p className='w-[57%] font-semibold'>The pinnacle of 5-liter performance, this engine is uniquely tuned andcalibrated for speed, And with the Mach 1 Handling Package.</p>
+                    </div>
+                    <div className='flex flex-col gap-5'>
+                        <div className='flex gap-3'>
+                            <img src={mark} alt="" />
+                            <p>480 horsepower at 7,000 rpm</p>
+                        </div>
+                        <div className='flex gap-3'>
+                            <img src={mark} alt="" />
+                            <p>420 lb.-ft. of torque* at 4,600rpm</p>
+                        </div>
+                        <div className='flex gap-3'>
+                            <img src={mark} alt="" />
+                            <p>Two side heat exchanges for track endurance</p>
+                        </div>
+                        <div className='flex gap-3'>
+                            <img src={mark} alt="" />
+                            <p>6-speed manual transmission with rev-matching</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='w-[40%] justify-end'>
+                    <img src={eng3} alt="" />
                 </div>
             </div>
         </div>
