@@ -19,14 +19,18 @@ const Header = () => {
                 </div>
                 <div className='flex w-[30%] items-center justify-end ml-5 gap-5'>
                     <a href="/sign-in">Sign In</a>
-                    <button className='p-4 border-2 border-[#003478]'><a href="/sign-up">Sign Up</a></button>
+                    <button className='p-4 border-2 border-[#003478]'><a href="/sign-up">Sign Up to dahboard</a></button>
                 </div>
             </div>
             <div className='block lg:hidden'>
                 <RxHamburgerMenu />
             </div>
             <div className='lg:hidden flex flex-col gap-9 absolute top-[10%] w-full items-center'>
-            
+            <a href="/home">Home</a>
+                    <a href="/suv">SUVS</a>
+                    <a href="/trucks">TRUCKS</a>
+                    <a href="/electrified">ELECTRIFIED</a>
+                    <a href="/all-vehicles">ALL VEHICLES</a>
             </div>
         </div>
 
