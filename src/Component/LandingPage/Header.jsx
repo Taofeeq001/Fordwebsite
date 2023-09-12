@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
                 <div className='flex w-[30%] items-center justify-end ml-5 gap-5'>
                     <a href="/sign-in">Sign In</a>
-                    <button className='p-4 border-2 border-[#003478]'><a href="/sign-up">Sign Up to dahboard</a></button>
+                    <button className='p-4 border-2 border-[#003478]'><a href="/sign-up">Sign Up</a></button>
                 </div>
             </div>
             <div className='block lg:hidden'>
