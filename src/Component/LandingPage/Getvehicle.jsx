@@ -56,6 +56,20 @@ const Getvehicle = () => {
                 <button className='py-2 px-7 bg-[#003478] text-white'>Create your Account</button>
                 <u className='text-[#0276B3]'>Custom Order Explained</u>
             </div>
+            <div className='container flex justify-between'>
+                <div className='font-bold flex flex-col items-center gap-3 shadow-2xl p-8'>
+                    <h2>Starting At</h2>
+                    <p className='text-3xl'>&#36; 27,205</p>
+                </div>
+                <div className='font-bold flex flex-col items-center gap-3 shadow-2xl p-8'>
+                    <h2>EPA-Est. MPG City/Hwy</h2>
+                    <p className='text-3xl'>20/30</p>
+                </div>
+                <div className='font-bold flex flex-col items-center gap-3 shadow-2xl p-8'>
+                    <h2>Seating for</h2>
+                    <p className='text-3xl'>4</p>
+                </div>
+            </div>
         </div>
     )
 }
