@@ -26,7 +26,7 @@ const Header = () => {
                 <RxHamburgerMenu />
             </div>
             <div className='lg:hidden flex flex-col gap-9 absolute top-[10%] w-full items-center'>
-                
+            
             </div>
         </div>
 
