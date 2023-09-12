@@ -101,6 +101,31 @@ const Power = () => {
                     <img src={eng3} alt="" />
                 </div>
             </div>
+            <div className='container mt-7 flex lg:gap-[20rem] justify-around w-full'>
+                <div className='w-[40%] justify-end'>
+                    <img src={eng4} alt="" />
+                </div>
+                <div className='text-start flex flex-col gap-9 w-[50%]'>
+                    <h1 className='text-5xl font-normal'>Shelby® GT500®</h1>
+                    <div>
+                        <p className='w-[57%] font-semibold'>5.2L supercharged cross=plane crank V8.</p>
+                        <p className=' font-semibold'>Top-of-the-line power that you can feel.</p>   
+                    </div>
+                    <div className='flex flex-col gap-5'>
+                        <div className='flex gap-3'>
+                            <img src={mark} alt="" />
+                            <p>760 horsepower</p>
+                        </div>
+                        <div className='flex gap-3'>
+                            <img src={mark} alt="" />
+                            <p>625 lb.-ft. of torque*</p>
+                        </div>
+                        <div className='flex gap-3'>
+                            <p>Standard on the Shelby GT500</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
