@@ -7,7 +7,7 @@ import eng4 from '../../Images/Eng4.svg'
 
 const Power = () => {
     return (
-        <div className='flex flex-col gap-5'>
+        <div className='flex flex-col gap-5 mb-7'>
             <div className='flex bg-black text-white w-full justify-center items-center'>
                 <p className='font text-4xl py-3'>POWER DOES MATTER</p>
             </div>

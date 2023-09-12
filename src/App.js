@@ -4,6 +4,7 @@ import Header from './Component/LandingPage/Header';
 import Hero from './Component/LandingPage/Hero';
 import Getvehicle from './Component/LandingPage/Getvehicle';
 import Power from './Component/LandingPage/Power';
+import Gallery from './Component/LandingPage/Gallery';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Header/>
       <Hero/>
       <Getvehicle/>
-      <Power/>      
+      <Power/>  
+      <Gallery/>    
     </div>
   );
 }
