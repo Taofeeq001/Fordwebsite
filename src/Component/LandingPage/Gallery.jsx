@@ -5,20 +5,21 @@ import { gallery } from './data';
 
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0)
+  const [click, setClick] = useState(0)
   
   
   
   const handleforward = ()=>{
-    if(currentImage < gallery.length -1){
+    if(currentImage >= 0 && currentImage<6){
       setCurrentImage(currentImage + 1)
     }
     else(setCurrentImage(0))
   }
   const handleback = ()=>{
-    if(currentImage >= 0){
-    setCurrentImage(currentImage -1)
+    if(currentImage <= 0 && currentImage <6){
+    setCurrentImage(gallery.length -1)
     }
-    else(setCurrentImage(gallery.lenght - 1))
+    else(setCurrentImage(currentImage - 1))
   }
   return (
     <div className='bg-[#303231] font flex flex-col gap-9'>
@@ -34,6 +35,17 @@ const Gallery = () => {
           </div>
         </div>
       </div>
+      <div className='container flex gap-3'>
+          {
+            gallery.map((d, index)=>{
+              return(
+                <img key={index} 
+                className={`w-[200px] h-[200px] ${currentImage===index ? "border-2 border-yellow-300 rounded-lg":""}`} 
+                src={d.image} alt=''/>
+              )
+            })
+          }
+        </div>
 
     </div>
   )
