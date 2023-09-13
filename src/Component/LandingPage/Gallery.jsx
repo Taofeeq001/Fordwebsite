@@ -9,10 +9,16 @@ const Gallery = () => {
   
   
   const handleforward = ()=>{
-    
+    if(currentImage < gallery.length -1){
+      setCurrentImage(currentImage + 1)
+    }
+    else(setCurrentImage(0))
   }
   const handleback = ()=>{
-
+    if(currentImage >= 0){
+    setCurrentImage(currentImage -1)
+    }
+    else(setCurrentImage(gallery.lenght - 1))
   }
   return (
     <div className='bg-[#303231] font flex flex-col gap-9'>
@@ -20,10 +26,10 @@ const Gallery = () => {
       <div className='relative w-full items-center justify-center flex flex-col'>
         <img className='w-full h-[60vh]' src={gallery[currentImage].image} alt="" />
         <div>
-          <div onClick={handleforward} className='absolute top-[30%] right-[10%] text-white text-3xl rounded-[50%] border-2 border-white p-3'>
+          <div onClick={handleforward} className='absolute cursor-pointer top-[30%] right-[10%] text-white text-3xl rounded-[50%] border-2 border-white p-3'>
             <IoIosArrowForward />
           </div>
-          <div onClick={handleback} className=' absolute top-[30%] left-[10%] text-white text-3xl rounded-[50%] border-2 border-white p-3'>
+          <div onClick={handleback} className=' absolute cursor-pointer top-[30%] left-[10%] text-white text-3xl rounded-[50%] border-2 border-white p-3'>
             <IoIosArrowBack />
           </div>
         </div>

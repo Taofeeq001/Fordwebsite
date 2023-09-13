@@ -9,24 +9,24 @@ import six from '../../Images/exterior.svg'
 
 export const gallery = [
     {
-        image: <img src={car} alt='' />
+        image: car
     },
     {
-        image: <img src={one} alt='' />
+        image: one
     },
     {
-        image: <img src={two} alt='' />
+        image: two
     },
     {
-        image: <img src={three} alt='' />
+        image: three
     },
     {
-        image: <img src={four} alt='' />
+        image: four
     },
     {
-        image: <img src={five} alt='' />
+        image: five
     },
     {
-        image: <img src={six} alt='' />
+        image: six
     }
 ]
