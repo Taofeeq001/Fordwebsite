@@ -9,21 +9,21 @@ import {CiYoutube} from 'react-icons/ci'
 const Quality = () => {
     return (
         <div className='bg-black text-white lg:pl-[17%] flex flex-col justify-between'>
-            <div className='flex'>
-                <div className='w-[60%]'>
-                    <span className='flex items-center'>
-                        <h1 className='text-5xl w-[90%] text-left'>Quality means doing it right when no one is looking</h1>
-                        <p className='text-[grey] text-[20px] font-bold'>-Henry Ford</p>
+            <div className='flex w-full pt-[10%]'>
+                <div className='w-[90%] flex flex-col items-start gap-9'>
+                    <span className='flex items-center w-[full]'>
+                        <h1 className='text-5xl w-full leading-[70px] text-left'>Quality means doing it right when no one is looking</h1>
+                        <p className='text-[grey] text-[20px] font-bold w-[30%]'>-Henry Ford</p>
                     </span>
-                    <p>Our dealership takes your privacy seriously and is committed to safeguarding your privacy online. Because we do gather certain types of information from you.</p>
+                    <p className='w-[75%] text-left text-2xl'>Our dealership takes your privacy seriously and is committed to safeguarding your privacy online. Because we do gather certain types of information from you.</p>
                     <div>
                         <button className='w-[274px] bg-[#003478] py-3 text-white hover:opacity-50'>Contact for Queries</button>
                     </div>
                 </div>
                 <img src={back} alt="" />
             </div>
-            <div className='flex items-center justify-center'>
-                <div className='w-[70%] border-2 border-b-[grey] justify-between'>
+            <div className='flex items-center flex-col'>
+                <div className='w-[70%] border-b-2 border-[gray] justify-between flex items-center pb-4'>
                     <img src={logo} alt="" />
                     <div className='flex gap-3' >
                         <a href="">Dealership</a>
@@ -37,7 +37,7 @@ const Quality = () => {
                         <a href=""><CiYoutube/></a>
                     </div>
                 </div>
-
+                <p className='text-[grey] text-xl mt-3'>Designed by SimsurajDev</p>
             </div>
         </div>
     )
