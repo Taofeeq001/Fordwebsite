@@ -19,7 +19,7 @@ const Header = () => {
             <div className='hidden lg:flex w-[60%] justify-between gap-5 items-center'>
                 <div className='flex flex-row w-[70%] justify-between'>
                     <a href="/home"
-                        className={active === "home" ? "bg-[lightyellow] text-black rounded-lg" : ""}
+                        className={active === "home" ? "font-underline" : ""}
                         onClick={()=> handleLink("home")}
                     >
                         Home
