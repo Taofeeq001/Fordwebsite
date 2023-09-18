@@ -6,6 +6,7 @@ import Getvehicle from './Component/LandingPage/Getvehicle';
 import Power from './Component/LandingPage/Power';
 import Gallery from './Component/LandingPage/Gallery';
 import Fordpass from './Component/LandingPage/Fordpass';
+import Quality from './Component/LandingPage/Quality';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Power/>  
       <Gallery/>   
       <Fordpass/> 
+      <Quality/>
     </div>
   );
 }

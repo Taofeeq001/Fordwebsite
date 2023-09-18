@@ -1,6 +1,5 @@
 import React from 'react'
 import front from '../../Images/car-front.svg'
-import back from '../../Images/car-back.svg'
 
 
 const Fordpass = () => {
