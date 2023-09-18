@@ -5,6 +5,7 @@ import Hero from './Component/LandingPage/Hero';
 import Getvehicle from './Component/LandingPage/Getvehicle';
 import Power from './Component/LandingPage/Power';
 import Gallery from './Component/LandingPage/Gallery';
+import Fordpass from './Component/LandingPage/Fordpass';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Hero/>
       <Getvehicle/>
       <Power/>  
-      <Gallery/>    
+      <Gallery/>   
+      <Fordpass/> 
     </div>
   );
 }

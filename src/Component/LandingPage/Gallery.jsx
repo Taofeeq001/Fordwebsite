@@ -23,7 +23,7 @@ const Gallery = () => {
   }
   return (
     <div className='bg-[#303231] font flex flex-col gap-9'>
-      <h1 className='text-white'>PHOTO GALLERY</h1>
+      <h1 className='text-4xl mt-3 text-white'>PHOTO GALLERY</h1>
       <div className='relative w-full items-center justify-center flex flex-col'>
         <img className='w-full h-[60vh]' src={gallery[currentImage].image} alt="" />
         <div>
