@@ -35,7 +35,7 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className='container flex gap-3'>
+      <div className='container lg:flex gap-3 hidden'>
           {
             gallery.map((d, index)=>{
               return(
